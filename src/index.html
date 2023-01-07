@@ -4,11 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Responsive Coffee Website</title>
     <link rel="stylesheet" href="/src/style.css">
-    <script src="main.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">
+            <img src="/img/logo.png" alt="">
+        </a>
+
+        <!-- Menu Icon -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <!-- Links -->
+        <ul class="navbar">
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About Us</a></li>
+            <li> <a href="#products">Products</a></li>
+            <li> <a href="#customers">Customers</a></li>
+        </ul>
+        <!-- Icon -->
+        <div class="header-icon">
+        <i class='bx bx-cart'></i>
+        <i class='bx bx-search' id="search-icon"></i>
+        </div>
+
+        <div class="search-box">
+        <input type="search" name="" id="" placeholder="Search Here...">
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Start your day <br> with coffee</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit nemo sit cumque rem! Debitis, quisquam.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="/img/main.png" alt="">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/img/about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis aspernatur sunt molestiae explicabo accusamus!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis aspernatur sunt molestiae explicabo accusamus!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis aspernatur sunt molestiae explicabo accusamus!</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </section>
 </body>
 </html>
